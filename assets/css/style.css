@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+ :root {
+    --primary-color: #404b65;
+    --secondary-color: #97bec6;
+    --tertiary-color: #96c7c9;
+}
+
+
+/* apply styles to <header> */
+
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 3vw;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1% 1% 1% 5%;
+    position: relative;
+    left: -35px;
+}
+
+header nav {
+    margin: 15px 15px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 5px 10px;
+    padding: 5px;
+    font-weight: lighter;
+    font-size: 2vw;
+    color: var(--secondary-color)
+}
+
+header nav ul li a:hover {
+    color: var(--tertiary-color);
+    border-bottom: 3px solid;
+}
+
+
+/*Section and Universal classes */
+
+section {
+    padding: 60px;
+}
+
+.section-title {
+    font-size: 36px;
+    color: var(--secondary-color);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.section-subtitle {
+    font-size: 24px;
+    color: var(--secondary-color);
+    width: 50%;
+}
+
+.primary-border {
+    border-color: var(--primary-color);
+}
+
+.secondary-border {
+    border-color: var(--tertiary-color);
+}
+
+
+/* End Section and Universal */
+
+
+/* Hero Style Start */
+
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+section.hero>h2 {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 36px;
+    padding: 5px 35px;
+    text-align: center;
+}
+
+
+/* Hero Style end */
