@@ -22,6 +22,9 @@ section {
     padding: 60px;
 }
 
+.section-title{
+}
+
 p {
     margin: 1vw;
 }
@@ -33,6 +36,7 @@ p {
 .secondary-border {
     border-color: var(--tertiary-color);
 }
+
 
 h3 {
     color: var(--primary-color);
@@ -129,7 +133,7 @@ header nav ul li a:hover {
     background-position: 80%;
 }
 
-section.hero>h2 {
+section.hero h2 {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     font-size: 36px;
@@ -165,7 +169,7 @@ section.hero>h2 {
 /* Contact */
 
 nav.footer {
-    margin: 15px 15px;
+    margin: 0px 15px;
 }
 
 nav.footer ul {
@@ -180,7 +184,8 @@ nav.footer ul li a {
     margin: 5px 10px;
     padding: 5px;
     font-weight: lighter;
-    font-size: 2vw;
+    font-size: 1.1vw;
+    text-decoration: none;
     color: var(--primary-color)
 }
 
