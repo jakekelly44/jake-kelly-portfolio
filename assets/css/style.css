@@ -176,7 +176,38 @@ header nav ul li a:hover {
     border: 5px solid;
     border-color: var(--tertiary-color);
     position: relative;
+    
 }
+
+.grid-img{
+width: 100%;
+    min-height: 300px;
+    display: flex;
+  padding: 15px;
+  align-items: flex-end;
+  position:relative;
+  top:0x;
+  left:0px;
+  overflow:hidden; 
+  
+}
+
+.grid-img::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background:var(--tertiary-color);
+    position: absolute;
+    top:0px;
+    left:0px;
+    opacity: .5;
+    transition: .5s;
+  }
+
+.grid-item:hover  .grid-img::after
+{opacity:0;}
+
+
 
 .grid-subtitle {
     background-color: var(--tertiary-color);
