@@ -218,7 +218,7 @@ header nav ul li a:hover {
 
 .featured {
     grid-area: featured;
-    background-image: url("../images/HonorHealth-featured.jpg");
+    background-image: url("../images/ticketfinder-featured.jpg");
     background-size: cover;
     background-position: top left;
 }
