@@ -246,7 +246,7 @@ header nav ul li a:hover {
 
 .horiseon {
     grid-area: horiseon;
-    background-image: url("../images/horiseon.jpg");
+    background-image: url("../images/here_there.png");
     background-size: cover;
     background-position: top left;
 }
